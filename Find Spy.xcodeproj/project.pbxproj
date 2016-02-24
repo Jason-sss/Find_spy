@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		969096B01C5F0EE500C821C7 /* ChooseSpyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 969096AF1C5F0EE500C821C7 /* ChooseSpyViewController.m */; };
+		969ADAD91BAF0D1600E5A574 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 969ADAD81BAF0D1600E5A574 /* main.m */; };
+		969ADADC1BAF0D1600E5A574 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 969ADADB1BAF0D1600E5A574 /* AppDelegate.m */; };
+		969ADAE21BAF0D1600E5A574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 969ADAE01BAF0D1600E5A574 /* Main.storyboard */; };
+		969ADAE41BAF0D1600E5A574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 969ADAE31BAF0D1600E5A574 /* Assets.xcassets */; };
+		969ADAE71BAF0D1600E5A574 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 969ADAE51BAF0D1600E5A574 /* LaunchScreen.storyboard */; };
+		969ADAF21BAF0D1600E5A574 /* Find_SpyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 969ADAF11BAF0D1600E5A574 /* Find_SpyTests.m */; };
+		969ADAFD1BAF0D1600E5A574 /* Find_SpyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 969ADAFC1BAF0D1600E5A574 /* Find_SpyUITests.m */; };
+		96E1761E1BF2E8400012C1D5 /* Identity.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E1761D1BF2E8400012C1D5 /* Identity.m */; };
+		96E176221BF2F6A30012C1D5 /* StartGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E176211BF2F6A30012C1D5 /* StartGameViewController.m */; };
+		96E176251BF31EFC0012C1D5 /* newGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E176241BF31EFC0012C1D5 /* newGame.m */; };
+		96E176281BF31F5D0012C1D5 /* CheckIdentityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E176271BF31F5D0012C1D5 /* CheckIdentityViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		969ADAEE1BAF0D1600E5A574 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 969ADACC1BAF0D1600E5A574 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 969ADAD31BAF0D1600E5A574;
+			remoteInfo = "Find Spy";
+		};
+		969ADAF91BAF0D1600E5A574 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 969ADACC1BAF0D1600E5A574 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 969ADAD31BAF0D1600E5A574;
+			remoteInfo = "Find Spy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		969096AE1C5F0EE500C821C7 /* ChooseSpyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseSpyViewController.h; sourceTree = "<group>"; };
+		969096AF1C5F0EE500C821C7 /* ChooseSpyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseSpyViewController.m; sourceTree = "<group>"; };
+		969ADAD41BAF0D1600E5A574 /* Find Spy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Find Spy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		969ADAD81BAF0D1600E5A574 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		969ADADA1BAF0D1600E5A574 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		969ADADB1BAF0D1600E5A574 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		969ADAE11BAF0D1600E5A574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		969ADAE31BAF0D1600E5A574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		969ADAE61BAF0D1600E5A574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		969ADAE81BAF0D1600E5A574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		969ADAED1BAF0D1600E5A574 /* Find SpyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find SpyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		969ADAF11BAF0D1600E5A574 /* Find_SpyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Find_SpyTests.m; sourceTree = "<group>"; };
+		969ADAF31BAF0D1600E5A574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		969ADAF81BAF0D1600E5A574 /* Find SpyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find SpyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		969ADAFC1BAF0D1600E5A574 /* Find_SpyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Find_SpyUITests.m; sourceTree = "<group>"; };
+		969ADAFE1BAF0D1600E5A574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E1761C1BF2E8400012C1D5 /* Identity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Identity.h; path = ../Identity.h; sourceTree = "<group>"; };
+		96E1761D1BF2E8400012C1D5 /* Identity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Identity.m; path = ../Identity.m; sourceTree = "<group>"; };
+		96E176201BF2F6A30012C1D5 /* StartGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartGameViewController.h; path = ../StartGameViewController.h; sourceTree = "<group>"; };
+		96E176211BF2F6A30012C1D5 /* StartGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StartGameViewController.m; path = ../StartGameViewController.m; sourceTree = "<group>"; };
+		96E176231BF31EFC0012C1D5 /* newGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = newGame.h; path = "Find Spy/newGame.h"; sourceTree = SOURCE_ROOT; };
+		96E176241BF31EFC0012C1D5 /* newGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = newGame.m; path = "Find Spy/newGame.m"; sourceTree = SOURCE_ROOT; };
+		96E176261BF31F5D0012C1D5 /* CheckIdentityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckIdentityViewController.h; sourceTree = "<group>"; };
+		96E176271BF31F5D0012C1D5 /* CheckIdentityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckIdentityViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		969ADAD11BAF0D1600E5A574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969ADAEA1BAF0D1600E5A574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969ADAF51BAF0D1600E5A574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		969ADACB1BAF0D1600E5A574 = {
+			isa = PBXGroup;
+			children = (
+				969ADAD61BAF0D1600E5A574 /* Find Spy */,
+				96E1761F1BF2E8520012C1D5 /* game */,
+				969ADAF01BAF0D1600E5A574 /* Find SpyTests */,
+				969ADAFB1BAF0D1600E5A574 /* Find SpyUITests */,
+				969ADAD51BAF0D1600E5A574 /* Products */,
+				96E176291BF328380012C1D5 /* image */,
+			);
+			sourceTree = "<group>";
+		};
+		969ADAD51BAF0D1600E5A574 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				969ADAD41BAF0D1600E5A574 /* Find Spy.app */,
+				969ADAED1BAF0D1600E5A574 /* Find SpyTests.xctest */,
+				969ADAF81BAF0D1600E5A574 /* Find SpyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		969ADAD61BAF0D1600E5A574 /* Find Spy */ = {
+			isa = PBXGroup;
+			children = (
+				96E176261BF31F5D0012C1D5 /* CheckIdentityViewController.h */,
+				96E176271BF31F5D0012C1D5 /* CheckIdentityViewController.m */,
+				969096AE1C5F0EE500C821C7 /* ChooseSpyViewController.h */,
+				969096AF1C5F0EE500C821C7 /* ChooseSpyViewController.m */,
+				96E176201BF2F6A30012C1D5 /* StartGameViewController.h */,
+				96E176211BF2F6A30012C1D5 /* StartGameViewController.m */,
+				969ADAE01BAF0D1600E5A574 /* Main.storyboard */,
+				969ADAE31BAF0D1600E5A574 /* Assets.xcassets */,
+				969ADAE51BAF0D1600E5A574 /* LaunchScreen.storyboard */,
+				969ADAE81BAF0D1600E5A574 /* Info.plist */,
+				969ADAD71BAF0D1600E5A574 /* Supporting Files */,
+			);
+			path = "Find Spy";
+			sourceTree = "<group>";
+		};
+		969ADAD71BAF0D1600E5A574 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				969ADAD81BAF0D1600E5A574 /* main.m */,
+				969ADADA1BAF0D1600E5A574 /* AppDelegate.h */,
+				969ADADB1BAF0D1600E5A574 /* AppDelegate.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		969ADAF01BAF0D1600E5A574 /* Find SpyTests */ = {
+			isa = PBXGroup;
+			children = (
+				969ADAF11BAF0D1600E5A574 /* Find_SpyTests.m */,
+				969ADAF31BAF0D1600E5A574 /* Info.plist */,
+			);
+			path = "Find SpyTests";
+			sourceTree = "<group>";
+		};
+		969ADAFB1BAF0D1600E5A574 /* Find SpyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				969ADAFC1BAF0D1600E5A574 /* Find_SpyUITests.m */,
+				969ADAFE1BAF0D1600E5A574 /* Info.plist */,
+			);
+			path = "Find SpyUITests";
+			sourceTree = "<group>";
+		};
+		96E1761F1BF2E8520012C1D5 /* game */ = {
+			isa = PBXGroup;
+			children = (
+				96E1761C1BF2E8400012C1D5 /* Identity.h */,
+				96E1761D1BF2E8400012C1D5 /* Identity.m */,
+				96E176231BF31EFC0012C1D5 /* newGame.h */,
+				96E176241BF31EFC0012C1D5 /* newGame.m */,
+			);
+			name = game;
+			path = "Find SpyTests";
+			sourceTree = "<group>";
+		};
+		96E176291BF328380012C1D5 /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		969ADAD31BAF0D1600E5A574 /* Find Spy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 969ADB011BAF0D1600E5A574 /* Build configuration list for PBXNativeTarget "Find Spy" */;
+			buildPhases = (
+				969ADAD01BAF0D1600E5A574 /* Sources */,
+				969ADAD11BAF0D1600E5A574 /* Frameworks */,
+				969ADAD21BAF0D1600E5A574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Find Spy";
+			productName = "Find Spy";
+			productReference = 969ADAD41BAF0D1600E5A574 /* Find Spy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		969ADAEC1BAF0D1600E5A574 /* Find SpyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 969ADB041BAF0D1600E5A574 /* Build configuration list for PBXNativeTarget "Find SpyTests" */;
+			buildPhases = (
+				969ADAE91BAF0D1600E5A574 /* Sources */,
+				969ADAEA1BAF0D1600E5A574 /* Frameworks */,
+				969ADAEB1BAF0D1600E5A574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				969ADAEF1BAF0D1600E5A574 /* PBXTargetDependency */,
+			);
+			name = "Find SpyTests";
+			productName = "Find SpyTests";
+			productReference = 969ADAED1BAF0D1600E5A574 /* Find SpyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		969ADAF71BAF0D1600E5A574 /* Find SpyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 969ADB071BAF0D1600E5A574 /* Build configuration list for PBXNativeTarget "Find SpyUITests" */;
+			buildPhases = (
+				969ADAF41BAF0D1600E5A574 /* Sources */,
+				969ADAF51BAF0D1600E5A574 /* Frameworks */,
+				969ADAF61BAF0D1600E5A574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				969ADAFA1BAF0D1600E5A574 /* PBXTargetDependency */,
+			);
+			name = "Find SpyUITests";
+			productName = "Find SpyUITests";
+			productReference = 969ADAF81BAF0D1600E5A574 /* Find SpyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		969ADACC1BAF0D1600E5A574 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jason Shen";
+				TargetAttributes = {
+					969ADAD31BAF0D1600E5A574 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = THXV57WWWF;
+					};
+					969ADAEC1BAF0D1600E5A574 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 969ADAD31BAF0D1600E5A574;
+					};
+					969ADAF71BAF0D1600E5A574 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 969ADAD31BAF0D1600E5A574;
+					};
+				};
+			};
+			buildConfigurationList = 969ADACF1BAF0D1600E5A574 /* Build configuration list for PBXProject "Find Spy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 969ADACB1BAF0D1600E5A574;
+			productRefGroup = 969ADAD51BAF0D1600E5A574 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				969ADAD31BAF0D1600E5A574 /* Find Spy */,
+				969ADAEC1BAF0D1600E5A574 /* Find SpyTests */,
+				969ADAF71BAF0D1600E5A574 /* Find SpyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		969ADAD21BAF0D1600E5A574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969ADAE71BAF0D1600E5A574 /* LaunchScreen.storyboard in Resources */,
+				969ADAE41BAF0D1600E5A574 /* Assets.xcassets in Resources */,
+				969ADAE21BAF0D1600E5A574 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969ADAEB1BAF0D1600E5A574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969ADAF61BAF0D1600E5A574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		969ADAD01BAF0D1600E5A574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969096B01C5F0EE500C821C7 /* ChooseSpyViewController.m in Sources */,
+				96E176251BF31EFC0012C1D5 /* newGame.m in Sources */,
+				969ADADC1BAF0D1600E5A574 /* AppDelegate.m in Sources */,
+				969ADAD91BAF0D1600E5A574 /* main.m in Sources */,
+				96E176281BF31F5D0012C1D5 /* CheckIdentityViewController.m in Sources */,
+				96E1761E1BF2E8400012C1D5 /* Identity.m in Sources */,
+				96E176221BF2F6A30012C1D5 /* StartGameViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969ADAE91BAF0D1600E5A574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969ADAF21BAF0D1600E5A574 /* Find_SpyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969ADAF41BAF0D1600E5A574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969ADAFD1BAF0D1600E5A574 /* Find_SpyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		969ADAEF1BAF0D1600E5A574 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 969ADAD31BAF0D1600E5A574 /* Find Spy */;
+			targetProxy = 969ADAEE1BAF0D1600E5A574 /* PBXContainerItemProxy */;
+		};
+		969ADAFA1BAF0D1600E5A574 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 969ADAD31BAF0D1600E5A574 /* Find Spy */;
+			targetProxy = 969ADAF91BAF0D1600E5A574 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		969ADAE01BAF0D1600E5A574 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				969ADAE11BAF0D1600E5A574 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		969ADAE51BAF0D1600E5A574 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				969ADAE61BAF0D1600E5A574 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		969ADAFF1BAF0D1600E5A574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		969ADB001BAF0D1600E5A574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		969ADB021BAF0D1600E5A574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Find Spy/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jason.Find-Spy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		969ADB031BAF0D1600E5A574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Find Spy/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jason.Find-Spy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		969ADB051BAF0D1600E5A574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Find SpyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "coreteam.Find-SpyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Find Spy.app/Find Spy";
+			};
+			name = Debug;
+		};
+		969ADB061BAF0D1600E5A574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Find SpyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "coreteam.Find-SpyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Find Spy.app/Find Spy";
+			};
+			name = Release;
+		};
+		969ADB081BAF0D1600E5A574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Find SpyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "coreteam.Find-SpyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Find Spy";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		969ADB091BAF0D1600E5A574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Find SpyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "coreteam.Find-SpyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Find Spy";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		969ADACF1BAF0D1600E5A574 /* Build configuration list for PBXProject "Find Spy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969ADAFF1BAF0D1600E5A574 /* Debug */,
+				969ADB001BAF0D1600E5A574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		969ADB011BAF0D1600E5A574 /* Build configuration list for PBXNativeTarget "Find Spy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969ADB021BAF0D1600E5A574 /* Debug */,
+				969ADB031BAF0D1600E5A574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		969ADB041BAF0D1600E5A574 /* Build configuration list for PBXNativeTarget "Find SpyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969ADB051BAF0D1600E5A574 /* Debug */,
+				969ADB061BAF0D1600E5A574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		969ADB071BAF0D1600E5A574 /* Build configuration list for PBXNativeTarget "Find SpyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969ADB081BAF0D1600E5A574 /* Debug */,
+				969ADB091BAF0D1600E5A574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 969ADACC1BAF0D1600E5A574 /* Project object */;
+}
